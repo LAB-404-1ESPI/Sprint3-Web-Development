@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0011ff;
+    --secondary-color: #0059ff;
+    --background-color: #333333;
+    --text-color: #ffffff;
+    --font-family: Arial, sans-serif;
+    --cor-hover: #1f3033;
+}
+
+html,
+body,
+#root {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+
+button,
+input {
+    font-family: inherit;
+}

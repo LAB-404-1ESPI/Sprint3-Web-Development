@@ -1,0 +1,37 @@
+#home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h1 {
+    margin-bottom: 20px;
+}
+
+#nome {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+.entrar {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.entrar:hover {
+    background-color: var(--cor-hover);
+    transition: all 0.2s ease;
+    transform: translateY(-5px);
+}

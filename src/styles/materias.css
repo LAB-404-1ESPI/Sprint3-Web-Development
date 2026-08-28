@@ -1,0 +1,47 @@
+#materias {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    padding: 50px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#materias h1 {
+    margin-bottom: 20px;
+}
+
+.botoes-materias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matematica,
+.historia,
+.geografia {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 150px;
+}
+
+.matematica:hover,
+.historia:hover,
+.geografia:hover {
+    background-color: var(--cor-hover);
+    transition: all 0.2s ease;
+    transform: translateY(-5px);
+}
