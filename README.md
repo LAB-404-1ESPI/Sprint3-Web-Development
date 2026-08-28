@@ -124,9 +124,6 @@ src/
 │   ├── materias.css
 │   └── questoes.css
 │
-├── utils/
-│   └── storage.js
-│
 ├── App.jsx
 └── main.jsx
 
@@ -300,7 +297,7 @@ O projeto foi publicado utilizando a plataforma Vercel.
 
 Link do Deploy:
 
-> link vercel
+> https://sprint3-web-development-omega.vercel.app/
 
 # Repositório
 
